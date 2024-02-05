@@ -1,0 +1,18 @@
+.conatiner-col{
+background: url(medium-shot-business-women-high-five.jpeg);
+background-size: 100% auto;
+background-repeat:no-repeat;
+}
+.conatiner-position{
+ width:100%;   
+ padding: 5%;
+}
+@media screen and (max-width:992px){
+    .conatiner-col{
+        background-size: 100% 400px; 
+    }
+}
+
+.img-hover:hover{
+    box-shadow:5px 10px 5px 5px lightblue;
+}
